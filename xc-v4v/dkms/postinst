@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # Copyright (c) 2012 Citrix Systems, Inc.
+# Copyright (c) 2015 Jed <lejosnej@ainfosec.com>
 # 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -19,7 +20,7 @@
 
 set -e
 
-NAME=xenclient-pv-drivers
+NAME=openxt-v4v
 PACKAGE=${NAME}-dkms
 VERSION=1.0
 SRCS=/usr/src/${PACKAGE}-${VERSION}

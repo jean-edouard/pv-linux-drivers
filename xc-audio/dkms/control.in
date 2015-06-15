@@ -1,0 +1,11 @@
+Package: openxt-audio
+Version: 1.0
+Maintainer: OpenXT <audio-maintainer@openxt.org>
+Section: OpenXT
+License: GPLv2
+Installed-Size: 104
+Architecture: all
+Depends: linux-headers-generic | linux-headers, dkms, autoconf, gcc, libtool
+Priority: optional
+Description: OpenXT audio
+ OpenXT Linux audio PV driver.

@@ -1,0 +1,4 @@
+openxt-audio: extended-description-is-empty
+openxt-audio: changelog-file-missing-in-native-package
+openxt-audio: copyright-file-is-symlink
+openxt-audio: copyright-without-copyright-notice

@@ -1,6 +1,7 @@
 #!/bin/sh
 #
 # Copyright (c) 2012 Citrix Systems, Inc.
+# Copyright (c) 2015 Jed <lejosnej@ainfosec.com>
 # 
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -17,15 +18,16 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
 
-NAME=xenbus-s3-fix
+NAME=openxt-v4v
+PACKAGE=${NAME}-dkms
 VERSION=1.0
 
 set -e
 
 case "$1" in
     remove|upgrade|deconfigure)
-      if [  "`dkms status -m $NAME`" ]; then
-         dkms remove -m $NAME -v $VERSION --all
+      if [  "`dkms status -m $PACKAGE`" ]; then
+         dkms remove -m $PACKAGE -v $VERSION --all
       fi
     ;;
 
