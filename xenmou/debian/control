@@ -1,6 +1,5 @@
 Source: xenmou
 Section: kernel
-License: GPLv2
 Priority: optional
 Maintainer: OpenXT Community
 Build-Depends: dkms
