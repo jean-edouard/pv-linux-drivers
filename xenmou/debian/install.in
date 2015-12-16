@@ -1,0 +1,3 @@
+Makefile usr/src/xenmou-DEB_VERSION_UPSTREAM
+xenmou.c usr/src/xenmou-DEB_VERSION_UPSTREAM
+debug.h usr/src/xenmou-DEB_VERSION_UPSTREAM

@@ -1,0 +1,12 @@
+Source: xenmou
+Section: kernel
+Priority: optional
+Maintainer: OpenXT <openxt@openxt.org>
+Build-Depends: dkms
+
+Package: xenmou-dkms
+Architecture: all
+Depends:
+Description: XenMou
+ OpenXT XenMou driver for Linux
+
