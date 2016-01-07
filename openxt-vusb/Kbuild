@@ -1,1 +1,1 @@
-obj-m += xc-vusb.o 
+obj-m += openxt-vusb.o 

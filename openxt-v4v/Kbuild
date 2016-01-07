@@ -1,1 +1,1 @@
-obj-m += xc-v4v.o 
+obj-m += openxt-v4v.o 

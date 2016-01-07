@@ -1,11 +1,11 @@
-Source: openxt-xenmou
+Source: openxt-vusb
 Section: kernel
 Priority: optional
 Maintainer: OpenXT Community
 Build-Depends: dkms
 
-Package: openxt-xenmou-dkms
+Package: openxt-vusb-dkms
 Architecture: all
 Depends: dkms
-Description: XenMou
- XenMou driver for Linux
+Description: OpenXT vusb
+ OpenXT vusb driver for Linux

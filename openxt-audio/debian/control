@@ -1,11 +1,11 @@
-Source: openxt-xenmou
+Source: openxt-audio
 Section: kernel
 Priority: optional
 Maintainer: OpenXT Community
 Build-Depends: dkms
 
-Package: openxt-xenmou-dkms
+Package: openxt-audio-dkms
 Architecture: all
 Depends: dkms
-Description: XenMou
- XenMou driver for Linux
+Description: OpenXT audio
+ OpenXT audio driver for Linux
